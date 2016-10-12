@@ -1,0 +1,149 @@
+body{
+    position: relative;
+    background-color: #FA8072;
+   // background-color: #FFFFF5;
+}
+
+.back{
+    padding: 5px;
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    background-color: #000000;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    
+    .contact-1{
+        margin-left: 110px;
+        .phone{
+            color: lighten(#000000, 60%);
+            font-size: 20px;
+            font-weight: bond;
+            margin-right: 7,5px;
+            margin-left: 5px;
+        }
+
+        .time{
+            color: lighten(#000000, 60%);
+            font-size: 12px;
+            font-weight: normal;
+            margin: 15px;
+        }
+         @media(max-width: 570px){
+            .time{
+                display: none;
+            }
+        }
+
+        .label-consignment{
+            color: lighten(#000000, 60%);
+            font-size: 16px;
+            font-weight: normal;
+            margin: 15px;
+
+        }
+        @media(max-width: 840px){
+            .label-consignment{
+                display: none;
+            }
+            
+        }
+
+        button{
+            float: right;
+            margin: 15px;
+            margin-top: 1px;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 7px 13px 7px 13px;
+        }
+    }
+    
+    .my-line{
+        position: absolute;
+       
+        height: 1px;
+        margin-left: 115px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        opacity: 0.8;
+        background: #FFFFFF;
+        text-align: center;
+        
+    }
+    .contact-2{
+        margin-left: 110px;
+        margin-top: 15px;
+        
+        a{
+            color: #FFFFFF;
+            margin: 5px;
+        }
+    }
+}
+
+
+
+.banner-top{
+    width: 100px;
+    height: 85px;
+    padding-top: 6px;
+    position: fixed;
+    background-color: #ea862e;
+    opacity: 1;
+    top: 0px;
+    left: 10px;
+    z-index: 20;
+    text-align: center;
+    
+    h5{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: normal;
+        
+    }
+    
+    p{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 24px;
+    }
+    
+    img{
+        position: fixed;
+        top: 85px;
+        left: 10px;
+        z-index: 20;
+        transform: rotate(180deg);
+    }
+}
+
+.banner-bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+}
+
+.annotation-kma{
+    position: relative; 
+    min-width: 100%;
+    max-width: 100%
+    height: 150px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    top: 0px;
+    left: 0px;
+    
+    p{
+        text-align: center;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 10px;
+        color: #808080;
+    }
+}
