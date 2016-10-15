@@ -3,3 +3,49 @@
 @import "pizza/container";
 @import "pizza/booking";
 @import "pizza/pizza-card";
+
+@media(max-width: 640px){
+    .back{
+        .contact-1{
+            .phone{
+                font-size: 10px;
+            }
+            
+            .time{
+                display: none;
+            }
+            
+            .label-consignment{
+            display: none;
+            }
+            button{
+            position: fixed;
+            top: 30px;
+            right: 300px;
+            float: right;
+            margin: 15px;
+            margin-top: 1px;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 7px 13px 7px 13px;
+            z-index: 100px;
+        }
+        }
+    }
+    .my-line{
+        position: absolute;
+        width: 100%;
+        padding-right: 15px;
+        height: 1px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+        opacity: 0.8;
+        background: #FFFFFF;
+        text-align: center;
+        
+    }
+}
+
+@media(min-width:1200px){
+    
+}
