@@ -6,9 +6,15 @@ body{
 .container-fluid{
     margin: auto;
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-right: 300px;
+    padding-left: 20px;
+    padding-right: 320px;
+}
+
+@media(min-width: 1200px){
+    .container-fluid{
+        padding-left: 100px;
+        padding-right: 400px;
+    }
 }
 
 .back{
@@ -75,6 +81,7 @@ body{
     .my-line{
         position: absolute;
         width: 100%;
+        padding-right: 15px;
         height: 1px;
         margin-left: 115px;
         margin-right: 15px;
